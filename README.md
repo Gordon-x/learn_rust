@@ -18,5 +18,5 @@ learn_rust  //根目录
 
 例如： `cargo test test_two_sum`
 
-![](../image/example.png)
+![-w800](https://github.com/a74946443/learn_rust/blob/master/image/example.png?raw=true)
 
