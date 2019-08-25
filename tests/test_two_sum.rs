@@ -6,8 +6,8 @@ pub mod tests {
 
     #[test]
     pub fn test_two_sum() {
-        let nums = vec![2, 7, 11, 15];
-        let n = two_sum(nums, 9);
+        let nums:Vec<usize> = vec![2, 7, 11, 15];
+        let n:Vec<usize> = two_sum(nums, 9_usize);
 
         assert_eq!(n, vec![0,1]);
     }

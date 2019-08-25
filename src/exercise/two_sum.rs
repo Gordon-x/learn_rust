@@ -6,20 +6,20 @@
 //
 use std::collections::HashMap;
 
-pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
+pub fn two_sum(nums: Vec<usize>, target: usize) -> Vec<usize> {
 
-    let mut res:Vec<i32> = vec![];
-    let mut h: HashMap<i32, i32> = HashMap::new();
+    let mut res:Vec<usize> = vec![];
+    let mut h: HashMap<usize, usize> = HashMap::new();
     for (k, n) in nums.iter().enumerate() {
         let key = target - n;
         match h.get(&key) {
             Some(v) => {
                 res.push(*v);
-                res.push(k as i32);
+                res.push(k);
                 break;
             },
             None => {
-                h.insert(*n, k as i32);
+                h.insert(*n, k);
             }
         }
     }
