@@ -1,3 +1,9 @@
+
+///
+/// ## 第一种解法
+///
+///
+///
 pub fn convert(s: String, num_rows: i32) -> String {
     let mut result = String::new();
     let seq: Vec<char> = s.chars().collect();
@@ -31,6 +37,11 @@ pub fn convert(s: String, num_rows: i32) -> String {
     result
 }
 
+
+///
+/// ## leetcode中的优秀解法
+///
+///
 fn convert1(s: String, num_rows: i32) -> String {
     if num_rows<=1 { return s; }
     let s = s.as_bytes();

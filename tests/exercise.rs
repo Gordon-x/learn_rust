@@ -13,7 +13,7 @@ pub mod tests {
     }
 
 
-    use learn_rust::exercise::substring::substring;
+    use learn_rust::exercise::length_of_longest_substring::substring;
     #[test]
     pub fn test_sub() {
         let abc = String::from("abcabcbb");

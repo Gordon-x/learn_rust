@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::cmp::max;
 
-pub fn substring(s:String) -> i32 {
+pub fn length_of_longest_substring(s:String) -> i32 {
     let mut max_len:usize = 0;
     let mut tmp_len:usize = 0;
 
