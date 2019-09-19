@@ -1,3 +1,4 @@
+use std::ops::Range;
 
 ///
 /// ## 第一种解法
