@@ -20,3 +20,6 @@ learn_rust  //根目录
 
 <img src="https://github.com/a74946443/learn_rust/blob/master/image/example.png?raw=true" />
 
+### 查看文档
+
+运行 `cargo doc --open`
