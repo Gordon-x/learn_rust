@@ -1,4 +1,3 @@
-use std::ops::Range;
 
 ///
 /// ## 第一种解法
@@ -16,7 +15,7 @@ pub fn convert(s: String, num_rows: i32) -> String {
     for i in 0..num_rows {
         let mut j:i32 = 0;
         loop {
-            let mut idx:usize = 0;
+            let idx:usize;
             if i > 0 && i < num_rows - 1 {
                 let k:i32 = j/2;
                 let tail = k * (2 * num_rows - 2) + num_rows - 1;
@@ -43,7 +42,7 @@ pub fn convert(s: String, num_rows: i32) -> String {
 /// ## leetcode中的优秀解法
 ///
 ///
-fn convert1(s: String, num_rows: i32) -> String {
+pub fn convert1(s: String, num_rows: i32) -> String {
     if num_rows<=1 { return s; }
     let s = s.as_bytes();
     let mut ret = String::with_capacity(s.len());

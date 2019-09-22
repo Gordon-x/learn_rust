@@ -30,4 +30,12 @@ pub mod tests {
         let median = find_median_sorted_arrays(vec![1,3], vec![2]);
         assert_eq!(2.0, median);
     }
+
+    use learn_rust::exercise::longest_palindrome::long_new;
+    #[test]
+    pub fn long_new_test() {
+        let a = long_new("cbbd".to_string());
+        assert_eq!("bb".to_string(), a);
+    }
+
 }

@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-use std::cmp::max;
 
 pub fn length_of_longest_substring(s:String) -> i32 {
     let mut rec = HashMap::<u8, usize>::new();

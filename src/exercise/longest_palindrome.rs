@@ -1,5 +1,5 @@
 
-fn long_new(s: String) ->String {
+pub fn long_new(s: String) ->String {
     let length = s.len();
     if length < 2 {
         return s;

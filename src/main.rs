@@ -1,6 +1,5 @@
-//extern crate learn_rust;
+extern crate learn_rust;
 
 
 fn main() {
-
 }
