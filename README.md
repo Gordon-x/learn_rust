@@ -8,6 +8,7 @@ learn_rust  //根目录
     |- src  //源码
     |   |
     |   |- exercise //练习程序模块
+    |   |- study    //rust学习内容
     |
     |- tests    //测试程序目录
 ```
@@ -20,6 +21,8 @@ learn_rust  //根目录
 
 <img src="https://github.com/a74946443/learn_rust/blob/master/image/example.png?raw=true" />
 
-### 查看文档
+### 练习内容
+
+内容可通过文档进行查看
 
 运行 `cargo doc --open`
