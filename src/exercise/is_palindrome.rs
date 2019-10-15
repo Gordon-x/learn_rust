@@ -15,7 +15,7 @@
 ///
 pub fn is_palindrome(x: i32) -> bool {
     if x < 0 {return false;}
-    if x == 0 {return true;}
+    if x >= 0 && x < 10 {return true;}
 
     let mut new_x = 0;
     let mut tmp_x = x;
